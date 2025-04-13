@@ -37,7 +37,7 @@ def verify_single_matrix(dir_path):
 
 
 def parse_time_from(parse_file):
-    """Извлекает время выполнения из лог-файла"""
+    """Извлекает время выполнения из файла"""
     times = {}
     with open(parse_file) as f:
         for line in f:
@@ -96,7 +96,7 @@ def find_and_verify_all(base_dir="matrix_results"):
         times = parse_time_from(parse_file)
         plot_performance(times)
     else:
-        print("Лог-файл не найден, график не построен")
+        print("файл не найден, график не построен")
 
     print(f"\nVerification summary:")
     print(f"Total tests: {total}")
