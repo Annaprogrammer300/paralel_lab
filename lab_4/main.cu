@@ -190,15 +190,15 @@ int main() {
     cout << "Найдено устройств CUDA: " << deviceCount << endl;
 
     // Базовый путь для сохранения файлов
-    fs::path base_path = "D:/Code/lessons/year_3/semak_2/paral_prog/lab_2/lab_4/lab_4/ggg";
+    fs::path base_path = "D:/Code/lessons/year_3/semak_2/paralel_lab/lab_4/matrix_results";
     createDirectory(base_path);
 
     // Файл для записи времени
-    fs::path timing_file = base_path / "timing_results.txt";
+    fs::path timing_file = base_path / "stats.txt";
     ofstream timing_file_stream(timing_file);
     timing_file_stream.close(); // Очистка файла перед записью новых данных
 
-    vector<int> thread_counts = { 2, 4, 8, 12, 16 }; // Количество потоков в блоке (CUDA)
+    vector<int> thread_counts = { 1, 2, 4, 8 }; // Количество потоков в блоке (CUDA)
 
     // Тестируем для размеров от 100 до 1000 с шагом 100
     for (int size = 100; size <= 1000; size += 100) {
