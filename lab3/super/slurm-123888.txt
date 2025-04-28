@@ -1,0 +1,10 @@
+Matrix size: 100x100, Processes: 2, Time: 8.28409 ms
+Matrix size: 200x200, Processes: 2, Time: 47.883 ms
+Matrix size: 300x300, Processes: 2, Time: 159.877 ms
+Matrix size: 400x400, Processes: 2, Time: 405.335 ms
+Matrix size: 500x500, Processes: 2, Time: 789.502 ms
+Matrix size: 600x600, Processes: 2, Time: 1284.33 ms
+Matrix size: 700x700, Processes: 2, Time: 2087.01 ms
+Matrix size: 800x800, Processes: 2, Time: 3052.24 ms
+Matrix size: 900x900, Processes: 2, Time: 4361.8 ms
+Matrix size: 1000x1000, Processes: 2, Time: 6116.37 ms

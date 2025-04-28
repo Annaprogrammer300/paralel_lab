@@ -1,0 +1,17 @@
+
+ Starting automatic verification in matrix_results_mpi
+100x100: Verification PASSED
+1000x1000: Verification PASSED
+200x200: Verification PASSED
+300x300: Verification PASSED
+400x400: Verification PASSED
+500x500: Verification PASSED
+600x600: Verification PASSED
+700x700: Verification PASSED
+800x800: Verification PASSED
+900x900: Verification PASSED
+
+Verification summary:
+Total tests: 10
+Passed: 10
+Failed: 0
